@@ -12,10 +12,6 @@ body {
     color: white;
 }
 
-ul {
-    list-style: none;
-}
-
 #container {
     height: 100vh;
     width: 100vw;
@@ -45,16 +41,20 @@ ul {
     flex: 5;
 }
 
-ul li {
-    color: #06D6A0;
+#item_container {
+    padding: 1vw;
+    
 }
 
-li {
-    padding: 20px;
+.items {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 i {
-    margin-right: 20px;
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
 #side_bar #bottom {
@@ -67,7 +67,12 @@ a {
 }
 
 a:hover {
-    color: #e9e9e9;
+    color: #8d8d8d;
+}
+
+.items:hover {
+    color: #06D6A0;
+    background-color: #6F7D8C;
 }
 
 #main {

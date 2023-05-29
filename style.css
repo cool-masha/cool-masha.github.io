@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
     box-sizing: border-box;
@@ -31,10 +32,16 @@ ul {
 
 #side_bar #top {
     flex: 0.6;
-    text-align: center;
+    font-family: "Lobster", "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(25deg, #233D4D, #06D6A0);
 }
 
-#center {
+#side_bar #center {
     flex: 5;
 }
 
@@ -44,6 +51,10 @@ ul li {
 
 li {
     padding: 20px;
+}
+
+i {
+    margin-right: 20px;
 }
 
 #side_bar #bottom {

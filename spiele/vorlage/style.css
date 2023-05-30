@@ -91,18 +91,21 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    flex: 0.5;
     min-width: 40px;
     border-radius: 20px;
-    color: black;
+    color: #233D4D;
     padding-left: 5vw;
     padding-right: 2vw;
+    font-size: 0.63em;
 }
 
 #account {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.6em;
+    color: black;
 }
 
 #profile_picture {
@@ -113,81 +116,6 @@ a:hover {
     border-radius: 50%;
 }
 
-#search {
-    background-color: #e63462;
-    padding: 6px;
-    border-radius: 20px;
-}
-
-input {
-    height: 25px;
-    width: 20vw;
-    border: none;
-    border-radius: 20px;
-    font-size: 1em;
-    color: #6F7D8C;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-input:focus {
-    outline: none;
-    border-color: #e63462;
-    box-shadow: 0 0 2px #e63462;
-}
-
-#search i {
-    color: white;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#main h2 {
-    flex: 1;
-}
-
-#spiele {
-    flex: 25;
-    margin-left: 20px;
-    margin-right: 20px;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow-y: scroll; 
-    display: grid;
-    justify-content: center;
-    grid-template: repeat(auto-fit, 100px) / repeat(auto-fit, minmax(100px, 1fr));
-    column-gap: 60px;
-    row-gap: 80px;
-}
-
-.spiel {
-    height: 100px;
-    width: 100px;
-    border: 4px solid #e63462;
-    border-radius: 15px;
-    background-color: #fff;
-    text-align: center;
-    display: block;
-}
-
-.spiel img {
-    max-width: 100%;
-    max-height: 100%;
-    padding: 5px;
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-#spiele {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow-y: scroll; 
-}
-  
-#spiele::-webkit-scrollbar {
-    display: none;
+#game {
+    flex: 40;
 }

@@ -1,9 +1,7 @@
 import random
 
-a = random.randint(1,3)
+a = random.randint(1, 2)
 if a == 1:
-    print("Fahrrad - Eis")
-elif a == 2:
-    print("Fahrrad - Schwimmbad")
+    print("Schere Stein Papier")
 else:
-    print("Auto - Eis + Schwimmbad")
+    print("Schiffe versenken")
